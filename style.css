@@ -1,0 +1,31 @@
+#btn-success:hover{
+    background-color: rgb(191, 0, 255);
+}
+#btn-success{
+    background-color: rgb(214, 166, 235);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 50px rgb(109, 5, 255);}
+    to{box-shadow: 1px 1px 50px rgb(255, 0, 195);}
+}
+
+body{
+    background-image: url(16449.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
